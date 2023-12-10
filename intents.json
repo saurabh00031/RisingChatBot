@@ -1,0 +1,108 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "hey"],
+     "responses": ["Hello! Good to see you!", "Hi there, how can I help?", "Hey genius, what's up?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+     "responses": ["See you soon pal...", "Goodbye! Have a nice day."],
+     "context_set": ""
+    },
+    {"tag": "booking",
+     "patterns": ["book room", "do you have any rooms?", "room reservation", "I want to book room"],
+     "responses": ["Do you want a single room or multiple rooms?"],
+     "context_set": "rooms_num"
+    },
+    {"tag": "one_room",
+     "patterns": ["single room", "one room", "1 room"],
+     "responses": ["Okay, we got you covered for 1 room!"],
+     "context_filter": "rooms_num"
+    },
+    {"tag": "multiple_rooms",
+     "patterns": ["many", "multiple rooms", "more than 1 rooms"],
+     "responses": ["Okay, please visit our website and book multiple rooms!"],
+     "context_filter": "rooms_num"
+    },
+    {"tag": "name",
+     "patterns": ["what's the name of the hostel?", "does hostel have a name?", "what should I call that place?"],
+     "responses": ["'Walchand Hostel': The paradise of wonderland...", "It's called as 'Hostel'!"],
+     "context_set": ""
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Love you 3000!", "My pleasure!"],
+     "context_set": ""
+    },
+    {"tag": "address",
+     "patterns": ["address", "Where is this place?", "where to find hotel?", "Give me location", "what is the address?"],
+     "responses": ["After travelling 200 metres from main gate and take left road and you will reach hostel :)"],
+     "context_set": ""
+    },
+    {"tag": "girls_hostel",
+     "patterns": ["Where is the girls hostel"],
+     "responses": ["After travelling 100 metres from main gate and take left road and you will reach hostel :)"],
+     "context_set": ""
+    },
+    {"tag": "tea_coffee",
+     "patterns": ["Which I can find tea and coffee in Walchand College of Engineering", "Where I can find some refereshment in WCE?"],
+     "responses": ["After travelling 110 metres from main gate and take left road and you will reach hostel : )"],
+     "context_set": ""
+    },
+    {"tag": "saraswati",
+     "patterns": ["Where is the Saraswati IDOL in wce"],
+     "responses": ["After travelling 150 metres from main gate and take right you will see the IDOL and in front of that famous Ajit Gulabbchand library is there : )"],
+     "context_set": ""
+    },
+    {"tag": "mini_ccf",
+     "patterns": ["Where is the mini ccf"],
+     "responses": ["After travelling 50 metres from main gate and take right you will see the IDOL and in front of that famous Ajit Gulabbchand library is there : )"],
+     "context_set": ""
+    },
+    {"tag": "academic_complex",
+     "patterns": ["Where is the academic complex",""],
+     "responses": ["After travelling 90 metres from main gate and take right from cyber hostel take first left and then first right this is now academic complex, run fast Proffessor is already there: )"],
+     "context_set": ""
+    },
+    {"tag": "badminton",
+     "patterns": ["Where is the badminton court", "Where is gymkhana"],
+     "responses": ["After travelling 200 metres from main gate and take right from cyber hostel take right )"],
+     "context_set": ""
+    },
+    {"tag": "playground",
+     "patterns": ["Where is the Playground", "Where to play cricket", "Where to play football"],
+     "responses": ["After travelling 200 metres from main gate and take right from cyber hostel take right you will find badminton court, gymkhana and playground."],
+     "context_set": ""
+    },
+    {"tag": "medicines",
+     "patterns": ["address", "Where is the Dispensary", "Where is doctor in WCE", "Where to find medicines in WCE"],
+     "responses": ["After travelling 70 metres from main gate and take left you will find medicines in dispencary"],
+     "context_set": ""
+    },
+    {"tag": "store",
+     "patterns": ["Where is the Store", "Where is stationary in WCE", "Where to find paper or book in WCE"],
+     "responses": ["After travelling 70 metres from main gate and take left you will find store in WCE"],
+     "context_set": ""
+    },
+    {"tag": "scholarship",
+    "patterns": ["what are scholarships available?", "Best scholarships", "Tell all scholarships", "Can i get to know about scholarships?", "Tell me about scholarships"],
+    "responses": ["Punjabrao deshmukh is for alphabhudarak and labour based candidates,ebc scheme for open category and similar mahadbt scholarships is for other castes too.. "],
+    "context_set": ""
+   },
+    {"tag": "moments_wce",
+    "patterns": ["What annual events are there?", "Events in WCE", "Happy moment in WCE"],
+    "responses": ["Annual Socail Gathering is the biggest cultural fest and Vision is biggest tech fest in WCE. Also there are many mega events of various techniacl society such as TEchumen of ACSES, Techfusion of SAIT, Technocrat of EESA, Vertex of MESA-MESC"],
+    "context_set": ""
+   },
+    {"tag": "events",
+    "patterns": ["What annual events are there?", "Events in WCE", "Happy moment in WCE"],
+    "responses": ["Annual Socail Gathering is the biggest cultural fest and Vision is biggest tech fest in WCE. Also there are many mega events of various techniacl society such as TEchumen of ACSES, Techfusion of SAIT, Technocrat of EESA, Vertex of MESA-MESC"],
+    "context_set": ""
+   },
+    {"tag": "scholarship",
+    "patterns": ["fee structure in wce?", "Fee structure for loan ?", "Bank asking about my fees structure how to get in wce?"],
+    "responses": ["Call scolarship section and give them the application about the same you will get you fees structure in 2 or3 working days"],
+    "context_set": ""
+   }
+]
+}
